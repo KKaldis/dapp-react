@@ -1,4 +1,4 @@
-export default function ModalContent() {
+const ModalContent = () => {
   return (
     <div>
       <h1 className="text-center">No Web 3.0 Wallet Found</h1>
@@ -8,4 +8,6 @@ export default function ModalContent() {
       </p>
     </div>
   );
-}
+};
+
+export default ModalContent;
