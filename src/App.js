@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
 import Web3 from "web3";
-import { useEffect, useState } from "react";
-import Modal from "react-modal";
+import { useState } from "react";
+import Connected from "./Components/Connected";
+
 import ModalContent from "./Components/ModalContent";
+import Modal from "react-modal";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -77,34 +78,15 @@ function App() {
   //   window.location.reload();
   // });
 
+  if (account > 0) {
+    return <Connected account={account} />;
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
+        {/* <NotConnected /> */}
         <button onClick={connectWallet}>Connect Your Wallet</button>
-
-        <p>
-          Wallet address: <code>{account}</code>
-        </p>
-        <a
-          className="App-link"
-          href={"https://bscscan.com/address/" + account}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          BSC Wallet Explorer
-        </a>
-        <a
-          className="App-link"
-          href={"https://etherscan.io/address/" + account}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ETH Wallet Explorer
-        </a>
       </header>
-
       <Modal isOpen={modalIsOpen}>
         <button onClick={setModalIsOpenToFalse}>x</button>
         <ModalContent />
