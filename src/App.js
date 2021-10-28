@@ -48,7 +48,11 @@ function App() {
   const loadAccount = async () => {
     const web3 = new Web3(App.web3Provider);
     const account = await web3.eth.getAccounts();
+    const chainID = await web3.eth.getChainId();
+    const networkID = await web3.eth.net.getId();
     setAccount(account);
+    console.log("network ID: ", networkID);
+    console.log("Chain ID: ", chainID);
   };
 
   // useEffect(() => {
