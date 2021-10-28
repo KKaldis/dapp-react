@@ -1,6 +1,7 @@
 import Web3 from "web3";
 import { useState } from "react";
 import Connected from "./Components/Connected";
+import NotConnected from "./Components/NotConnected";
 
 import ModalContent from "./Components/ModalContent";
 import Modal from "react-modal";
