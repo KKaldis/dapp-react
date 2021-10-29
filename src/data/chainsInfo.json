@@ -1,0 +1,926 @@
+{
+  "1": {
+    "chainSymbol": "ETH",
+    "chainName": "Ethereum Mainnet"
+  },
+  "2": {
+    "chainSymbol": "EXP",
+    "chainName": "Expanse Network"
+  },
+  "3": {
+    "chainSymbol": "ROP",
+    "chainName": "Ethereum Testnet Ropsten"
+  },
+  "4": {
+    "chainSymbol": "RIN",
+    "chainName": "Ethereum Testnet Rinkeby"
+  },
+  "5": {
+    "chainSymbol": "GOR",
+    "chainName": "Ethereum Testnet Görli"
+  },
+  "6": {
+    "chainSymbol": "KOT",
+    "chainName": "Ethereum Classic Testnet Kotti"
+  },
+  "7": {
+    "chainSymbol": "TCH",
+    "chainName": "ThaiChain"
+  },
+  "8": {
+    "chainSymbol": "UBQ",
+    "chainName": "Ubiq"
+  },
+  "9": {
+    "chainSymbol": "TUBQ",
+    "chainName": "Ubiq Network Testnet"
+  },
+  "10": {
+    "chainSymbol": "OETH",
+    "chainName": "Optimistic Ethereum"
+  },
+  "11": {
+    "chainSymbol": "META",
+    "chainName": "Metadium Mainnet"
+  },
+  "12": {
+    "chainSymbol": "KAL",
+    "chainName": "Metadium Testnet"
+  },
+  "13": {
+    "chainSymbol": "sDIODE",
+    "chainName": "Diode Testnet Staging"
+  },
+  "14": {
+    "chainSymbol": "FLR",
+    "chainName": "Flare Mainnet"
+  },
+  "15": {
+    "chainSymbol": "DIODE",
+    "chainName": "Diode Prenet"
+  },
+  "16": {
+    "chainSymbol": "CFLR",
+    "chainName": "Flare Testnet Coston"
+  },
+  "17": {
+    "chainSymbol": "TFI",
+    "chainName": "ThaiChain 2.0 ThaiFi"
+  },
+  "18": {
+    "chainSymbol": "TST",
+    "chainName": "ThunderCore Testnet"
+  },
+  "19": {
+    "chainSymbol": "SGB",
+    "chainName": "Songbird Canary-Network"
+  },
+  "20": {
+    "chainSymbol": "ELA",
+    "chainName": "ELA-ETH-Sidechain Mainnet"
+  },
+  "21": {
+    "chainSymbol": "tELA",
+    "chainName": "ELA-ETH-Sidechain Testnet"
+  },
+  "22": {
+    "chainSymbol": "ELA",
+    "chainName": "ELA-DID-Sidechain Mainnet"
+  },
+  "23": {
+    "chainSymbol": "tELA",
+    "chainName": "ELA-DID-Sidechain Testnet"
+  },
+  "30": {
+    "chainSymbol": "RBTC",
+    "chainName": "RSK Mainnet"
+  },
+  "31": {
+    "chainSymbol": "tRBTC",
+    "chainName": "RSK Testnet"
+  },
+  "32": {
+    "chainSymbol": "GooD",
+    "chainName": "GoodData Testnet"
+  },
+  "33": {
+    "chainSymbol": "GooD",
+    "chainName": "GoodData Mainnet"
+  },
+  "35": {
+    "chainSymbol": "TBG",
+    "chainName": "TBWG Chain"
+  },
+  "38": {
+    "chainSymbol": "VAL",
+    "chainName": "Valorbit"
+  },
+  "40": {
+    "chainSymbol": "TLOS",
+    "chainName": "Telos EVM Mainnet"
+  },
+  "41": {
+    "chainSymbol": "TLOS",
+    "chainName": "Telos EVM Testnet"
+  },
+  "42": {
+    "chainSymbol": "KOV",
+    "chainName": "Ethereum Testnet Kovan"
+  },
+  "43": {
+    "chainSymbol": "PRING",
+    "chainName": "Darwinia Pangolin Testnet"
+  },
+  "44": {
+    "chainSymbol": "CRING",
+    "chainName": "Darwinia Crab Network"
+  },
+  "50": {
+    "chainSymbol": "XDC",
+    "chainName": "XinFin Network Mainnet"
+  },
+  "51": {
+    "chainSymbol": "TXDC",
+    "chainName": "XinFin Apothem Testnet"
+  },
+  "52": {
+    "chainSymbol": "cet",
+    "chainName": "CoinEx Smart Chain Mainnet"
+  },
+  "53": {
+    "chainSymbol": "cett",
+    "chainName": "CoinEx Smart Chain Testnet"
+  },
+  "56": {
+    "chainSymbol": "BNB",
+    "chainName": "Binance Smart Chain Mainnet"
+  },
+  "58": {
+    "chainSymbol": "ONG",
+    "chainName": "Ontology Mainnet"
+  },
+  "59": {
+    "chainSymbol": "EOS",
+    "chainName": "EOS Mainnet"
+  },
+  "60": {
+    "chainSymbol": "GO",
+    "chainName": "GoChain"
+  },
+  "61": {
+    "chainSymbol": "ETC",
+    "chainName": "Ethereum Classic Mainnet"
+  },
+  "62": {
+    "chainSymbol": "TETC",
+    "chainName": "Ethereum Classic Testnet Morden"
+  },
+  "63": {
+    "chainSymbol": "METC",
+    "chainName": "Ethereum Classic Testnet Mordor"
+  },
+  "64": {
+    "chainSymbol": "ELLA",
+    "chainName": "Ellaism"
+  },
+  "65": {
+    "chainSymbol": "OKT",
+    "chainName": "OKExChain Testnet"
+  },
+  "66": {
+    "chainSymbol": "OKT",
+    "chainName": "OKExChain Mainnet"
+  },
+  "67": {
+    "chainSymbol": "DBM",
+    "chainName": "DBChain Testnet"
+  },
+  "68": {
+    "chainSymbol": "SOTER",
+    "chainName": "SoterOne Mainnet"
+  },
+  "69": {
+    "chainSymbol": "KOR",
+    "chainName": "Optimistic Ethereum Testnet Kovan"
+  },
+  "76": {
+    "chainSymbol": "MIX",
+    "chainName": "Mix"
+  },
+  "77": {
+    "chainSymbol": "POA",
+    "chainName": "POA Network Sokol"
+  },
+  "78": {
+    "chainSymbol": "PETH",
+    "chainName": "PrimusChain mainnet"
+  },
+  "80": {
+    "chainSymbol": "RNA",
+    "chainName": "GeneChain"
+  },
+  "82": {
+    "chainSymbol": "MTR",
+    "chainName": "Meter Mainnet"
+  },
+  "85": {
+    "chainSymbol": "GT",
+    "chainName": "GateChain Testnet"
+  },
+  "86": {
+    "chainSymbol": "GT",
+    "chainName": "GateChain Mainnet"
+  },
+  "88": {
+    "chainSymbol": "TOMO",
+    "chainName": "TomoChain"
+  },
+  "95": {
+    "chainSymbol": "EOS",
+    "chainName": "CryptoKylin Testnet"
+  },
+  "97": {
+    "chainSymbol": "tBNB",
+    "chainName": "Binance Smart Chain Testnet"
+  },
+  "99": {
+    "chainSymbol": "SKL",
+    "chainName": "POA Network Core"
+  },
+  "100": {
+    "chainSymbol": "xDAI",
+    "chainName": "xDAI Chain"
+  },
+  "101": {
+    "chainSymbol": "ETI",
+    "chainName": "EtherInc"
+  },
+  "102": {
+    "chainSymbol": "W3G",
+    "chainName": "Web3Games Testnet"
+  },
+  "106": {
+    "chainSymbol": "VLX",
+    "chainName": "Velas EVM Mainnet"
+  },
+  "108": {
+    "chainSymbol": "TT",
+    "chainName": "ThunderCore Mainnet"
+  },
+  "110": {
+    "chainSymbol": "XPR",
+    "chainName": "Proton Testnet"
+  },
+  "111": {
+    "chainSymbol": "ETL",
+    "chainName": "EtherLite Chain"
+  },
+  "122": {
+    "chainSymbol": "FUSE",
+    "chainName": "Fuse Mainnet"
+  },
+  "124": {
+    "chainSymbol": "DWU",
+    "chainName": "Decentralized Web Mainnet"
+  },
+  "127": {
+    "chainSymbol": "FETH",
+    "chainName": "Factory 127 Mainnet"
+  },
+  "128": {
+    "chainSymbol": "HT",
+    "chainName": "Huobi ECO Chain Mainnet"
+  },
+  "137": {
+    "chainSymbol": "MATIC",
+    "chainName": "Polygon Mainnet"
+  },
+  "142": {
+    "chainSymbol": "DAX",
+    "chainName": "DAX CHAIN"
+  },
+  "162": {
+    "chainSymbol": "PHT",
+    "chainName": "Lightstreams Testnet"
+  },
+  "163": {
+    "chainSymbol": "PHT",
+    "chainName": "Lightstreams Mainnet"
+  },
+  "170": {
+    "chainSymbol": "HOO",
+    "chainName": "HOO Smart Chain Testnet"
+  },
+  "172": {
+    "chainSymbol": "usd",
+    "chainName": "Latam-Blockchain Resil Testnet"
+  },
+  "200": {
+    "chainSymbol": "xDAI",
+    "chainName": "Arbitrum on xDai"
+  },
+  "211": {
+    "chainSymbol": "0xF",
+    "chainName": "Freight Trust Network"
+  },
+  "222": {
+    "chainSymbol": "ASK",
+    "chainName": "Permission"
+  },
+  "246": {
+    "chainSymbol": "EWT",
+    "chainName": "Energy Web Chain"
+  },
+  "250": {
+    "chainSymbol": "FTM",
+    "chainName": "Fantom Opera"
+  },
+  "256": {
+    "chainSymbol": "htt",
+    "chainName": "Huobi ECO Chain Testnet"
+  },
+  "262": {
+    "chainSymbol": "SRN",
+    "chainName": "SUR Blockchain Network"
+  },
+  "269": {
+    "chainSymbol": "HPB",
+    "chainName": "High Performance Blockchain"
+  },
+  "321": {
+    "chainSymbol": "KCS",
+    "chainName": "KCC Mainnet"
+  },
+  "322": {
+    "chainSymbol": "tKCS",
+    "chainName": "KCC Testnet"
+  },
+  "336": {
+    "chainSymbol": "SDN",
+    "chainName": "Shiden"
+  },
+  "338": {
+    "chainSymbol": "TCRO",
+    "chainName": "Cronos Testnet"
+  },
+  "361": {
+    "chainSymbol": "TFUEL",
+    "chainName": "Theta Mainnet"
+  },
+  "363": {
+    "chainSymbol": "TFUEL",
+    "chainName": "Theta Sapphire Testnet"
+  },
+  "364": {
+    "chainSymbol": "TFUEL",
+    "chainName": "Theta Amber Testnet"
+  },
+  "365": {
+    "chainSymbol": "TFUEL",
+    "chainName": "Theta Testnet"
+  },
+  "369": {
+    "chainSymbol": "PLS",
+    "chainName": "PulseChain Mainnet"
+  },
+  "385": {
+    "chainSymbol": "LISINSKI",
+    "chainName": "Lisinski"
+  },
+  "420": {
+    "chainSymbol": "GOR",
+    "chainName": "Optimistic Ethereum Testnet Goerli"
+  },
+  "499": {
+    "chainSymbol": "RUPX",
+    "chainName": "Rupaya"
+  },
+  "558": {
+    "chainSymbol": "TAO",
+    "chainName": "Tao Network"
+  },
+  "595": {
+    "chainSymbol": "mACA",
+    "chainName": "Acala Mandala Testnet"
+  },
+  "686": {
+    "chainSymbol": "KAR",
+    "chainName": "Karura Network"
+  },
+  "721": {
+    "chainSymbol": "FETH",
+    "chainName": "Factory 127 Testnet"
+  },
+  "777": {
+    "chainSymbol": "cTH",
+    "chainName": "cheapETH"
+  },
+  "787": {
+    "chainSymbol": "ACA",
+    "chainName": "Acala Network"
+  },
+  "803": {
+    "chainSymbol": "HAIC",
+    "chainName": "Haic"
+  },
+  "820": {
+    "chainSymbol": "CLO",
+    "chainName": "Callisto Mainnet"
+  },
+  "821": {
+    "chainSymbol": "TCLO",
+    "chainName": "Callisto Testnet"
+  },
+  "888": {
+    "chainSymbol": "WAN",
+    "chainName": "Wanchain"
+  },
+  "940": {
+    "chainSymbol": "tPLS",
+    "chainName": "PulseChain Testnet"
+  },
+  "977": {
+    "chainSymbol": "YETI",
+    "chainName": "Nepal Blockchain Network"
+  },
+  "999": {
+    "chainSymbol": "WAN",
+    "chainName": "Wanchain Testnet"
+  },
+  "1001": {
+    "chainSymbol": "KLAY",
+    "chainName": "Klaytn Testnet Baobab"
+  },
+  "1007": {
+    "chainSymbol": "NEW",
+    "chainName": "Newton Testnet"
+  },
+  "1010": {
+    "chainSymbol": "EVC",
+    "chainName": "Evrice Network"
+  },
+  "1012": {
+    "chainSymbol": "NEW",
+    "chainName": "Newton"
+  },
+  "1022": {
+    "chainSymbol": "SKU",
+    "chainName": "Sakura"
+  },
+  "1023": {
+    "chainSymbol": "CLV",
+    "chainName": "Clover Testnet"
+  },
+  "1024": {
+    "chainSymbol": "CLV",
+    "chainName": "Clover Mainnet"
+  },
+  "1139": {
+    "chainSymbol": "MATH",
+    "chainName": "MathChain"
+  },
+  "1140": {
+    "chainSymbol": "MATH",
+    "chainName": "MathChain Testnet"
+  },
+  "1284": {
+    "chainSymbol": "GLMR",
+    "chainName": "Moonbeam"
+  },
+  "1285": {
+    "chainSymbol": "MOVR",
+    "chainName": "Moonriver"
+  },
+  "1286": {
+    "chainSymbol": "ROC",
+    "chainName": "Moonrock"
+  },
+  "1287": {
+    "chainSymbol": "DEV",
+    "chainName": "Moonbase Alpha"
+  },
+  "1288": {
+    "chainSymbol": "MSHD",
+    "chainName": "Moonshadow"
+  },
+  "1618": {
+    "chainSymbol": "CATE",
+    "chainName": "Catecoin Chain Mainnet"
+  },
+  "1620": {
+    "chainSymbol": "ATH",
+    "chainName": "Atheios"
+  },
+  "1657": {
+    "chainSymbol": "BTA",
+    "chainName": "Btachain"
+  },
+  "1856": {
+    "chainSymbol": "TSF",
+    "chainName": "Teslafunds"
+  },
+  "1987": {
+    "chainSymbol": "EGEM",
+    "chainName": "EtherGem"
+  },
+  "2020": {
+    "chainSymbol": "420",
+    "chainName": "420coin"
+  },
+  "2021": {
+    "chainSymbol": "EDG",
+    "chainName": "Edgeware Mainnet"
+  },
+  "2022": {
+    "chainSymbol": "tEDG",
+    "chainName": "Beresheet Testnet"
+  },
+  "2100": {
+    "chainSymbol": "ECO",
+    "chainName": "Ecoball Mainnet"
+  },
+  "2101": {
+    "chainSymbol": "ECO",
+    "chainName": "Ecoball Testnet Espuma"
+  },
+  "2559": {
+    "chainSymbol": "KTO",
+    "chainName": "Kortho Mainnet"
+  },
+  "4002": {
+    "chainSymbol": "FTM",
+    "chainName": "Fantom Testnet"
+  },
+  "4689": {
+    "chainSymbol": "IOTX",
+    "chainName": "IoTeX Network Mainnet"
+  },
+  "4690": {
+    "chainSymbol": "IOTX",
+    "chainName": "IoTeX Network Testnet"
+  },
+  "5197": {
+    "chainSymbol": "ES",
+    "chainName": "EraSwap Mainnet"
+  },
+  "5700": {
+    "chainSymbol": "tSYS",
+    "chainName": "Syscoin Tanenbaum Testnet"
+  },
+  "5851": {
+    "chainSymbol": "ONG",
+    "chainName": "Ontology Testnet"
+  },
+  "5869": {
+    "chainSymbol": "RBD",
+    "chainName": "Wegochain Rubidium Mainnet"
+  },
+  "8029": {
+    "chainSymbol": "MDGLT",
+    "chainName": "MDGL Testnet"
+  },
+  "8080": {
+    "chainSymbol": "tRNA",
+    "chainName": "GeneChain Adenine Testnet"
+  },
+  "8217": {
+    "chainSymbol": "KLAY",
+    "chainName": "Klaytn Mainnet Cypress"
+  },
+  "8285": {
+    "chainSymbol": "KTO",
+    "chainName": "KorthoTest"
+  },
+  "8723": {
+    "chainSymbol": "OLO",
+    "chainName": "TOOL Global Mainnet"
+  },
+  "8724": {
+    "chainSymbol": "OLO",
+    "chainName": "TOOL Global Testnet"
+  },
+  "8995": {
+    "chainSymbol": "U+25B3",
+    "chainName": "bloxberg"
+  },
+  "9000": {
+    "chainSymbol": "PHOTON",
+    "chainName": "Evmos Testnet"
+  },
+  "10000": {
+    "chainSymbol": "BCH",
+    "chainName": "Smart Bitcoin Cash"
+  },
+  "10001": {
+    "chainSymbol": "BCHT",
+    "chainName": "Smart Bitcoin Cash Testnet"
+  },
+  "10101": {
+    "chainSymbol": "GEN",
+    "chainName": "Blockchain Genesis Mainnet"
+  },
+  "16000": {
+    "chainSymbol": "MTT",
+    "chainName": "MetaDot Mainnet"
+  },
+  "16001": {
+    "chainSymbol": "MTT-test",
+    "chainName": "MetaDot Testnet"
+  },
+  "24484": {
+    "chainSymbol": "WEB",
+    "chainName": "Webchain"
+  },
+  "24734": {
+    "chainSymbol": "MINTME",
+    "chainName": "MintMe.com Coin"
+  },
+  "31102": {
+    "chainSymbol": "ESN",
+    "chainName": "Ethersocial Network"
+  },
+  "31337": {
+    "chainSymbol": "GO",
+    "chainName": "GoChain Testnet"
+  },
+  "32659": {
+    "chainSymbol": "FSN",
+    "chainName": "Fusion Mainnet"
+  },
+  "39797": {
+    "chainSymbol": "NRG",
+    "chainName": "Energi Mainnet"
+  },
+  "42069": {
+    "chainSymbol": "peggle",
+    "chainName": "pegglecoin"
+  },
+  "42161": {
+    "chainSymbol": "AETH",
+    "chainName": "Arbitrum One"
+  },
+  "42220": {
+    "chainSymbol": "CELO",
+    "chainName": "Celo Mainnet"
+  },
+  "43110": {
+    "chainSymbol": "ATH",
+    "chainName": "Athereum"
+  },
+  "43113": {
+    "chainSymbol": "AVAX",
+    "chainName": "Avalanche Fuji Testnet"
+  },
+  "43114": {
+    "chainSymbol": "AVAX",
+    "chainName": "Avalanche Mainnet"
+  },
+  "44787": {
+    "chainSymbol": "CELO",
+    "chainName": "Celo Alfajores Testnet"
+  },
+  "49797": {
+    "chainSymbol": "NRG",
+    "chainName": "Energi Testnet"
+  },
+  "62320": {
+    "chainSymbol": "CELO",
+    "chainName": "Celo Baklava Testnet"
+  },
+  "71393": {
+    "chainSymbol": "CKB",
+    "chainName": "Polyjuice Testnet"
+  },
+  "73799": {
+    "chainSymbol": "VT",
+    "chainName": "Energy Web Volta Testnet"
+  },
+  "78110": {
+    "chainSymbol": "FIN",
+    "chainName": "Firenze test network"
+  },
+  "80001": {
+    "chainSymbol": "MATIC",
+    "chainName": "Polygon Testnet Mumbai"
+  },
+  "100000": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Root"
+  },
+  "100001": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 0"
+  },
+  "100002": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 1"
+  },
+  "100003": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 2"
+  },
+  "100004": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 3"
+  },
+  "100005": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 4"
+  },
+  "100006": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 5"
+  },
+  "100007": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 6"
+  },
+  "100008": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Mainnet Shard 7"
+  },
+  "110000": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Root"
+  },
+  "110001": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 0"
+  },
+  "110002": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 1"
+  },
+  "110003": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 2"
+  },
+  "110004": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 3"
+  },
+  "110005": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 4"
+  },
+  "110006": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 5"
+  },
+  "110007": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 6"
+  },
+  "110008": {
+    "chainSymbol": "QKC",
+    "chainName": "QuarkChain Devnet Shard 7"
+  },
+  "200625": {
+    "chainSymbol": "AKA",
+    "chainName": "Akroma"
+  },
+  "246529": {
+    "chainSymbol": "ATS",
+    "chainName": "ARTIS sigma1"
+  },
+  "246785": {
+    "chainSymbol": "tATS",
+    "chainName": "ARTIS Testnet tau1"
+  },
+  "333888": {
+    "chainSymbol": "tPOLIS",
+    "chainName": "Polis Testnet"
+  },
+  "333999": {
+    "chainSymbol": "POLIS",
+    "chainName": "Polis Mainnet"
+  },
+  "421611": {
+    "chainSymbol": "ARETH",
+    "chainName": "Arbitrum Testnet Rinkeby"
+  },
+  "955305": {
+    "chainSymbol": "ELV",
+    "chainName": "Eluvio Content Fabric"
+  },
+  "1313114": {
+    "chainSymbol": "ETHO",
+    "chainName": "Etho Protocol"
+  },
+  "1313500": {
+    "chainSymbol": "XERO",
+    "chainName": "Xerom"
+  },
+  "7762959": {
+    "chainSymbol": "MUSIC",
+    "chainName": "Musicoin"
+  },
+  "13371337": {
+    "chainSymbol": "TPEP",
+    "chainName": "PepChain Churchill"
+  },
+  "18289463": {
+    "chainSymbol": "ILT",
+    "chainName": "IOLite"
+  },
+  "20181205": {
+    "chainSymbol": "QKI",
+    "chainName": "quarkblockchain"
+  },
+  "28945486": {
+    "chainSymbol": "AUX",
+    "chainName": "Auxilium Network Mainnet"
+  },
+  "35855456": {
+    "chainSymbol": "JOYS",
+    "chainName": "Joys Digital Mainnet"
+  },
+  "61717561": {
+    "chainSymbol": "AQUA",
+    "chainName": "Aquachain"
+  },
+  "99415706": {
+    "chainSymbol": "TOYS",
+    "chainName": "Joys Digital TestNet"
+  },
+  "245022926": {
+    "chainSymbol": "NEON",
+    "chainName": "Neon EVM DevNet"
+  },
+  "245022934": {
+    "chainSymbol": "NEON",
+    "chainName": "Neon EVM MainNet"
+  },
+  "245022940": {
+    "chainSymbol": "NEON",
+    "chainName": "Neon EVM TestNet"
+  },
+  "311752642": {
+    "chainSymbol": "OLT",
+    "chainName": "OneLedger Mainnet"
+  },
+  "1122334455": {
+    "chainSymbol": "IPOS",
+    "chainName": "IPOS Network"
+  },
+  "1313161554": {
+    "chainSymbol": "aETH",
+    "chainName": "Aurora MainNet"
+  },
+  "1313161555": {
+    "chainSymbol": "aETH",
+    "chainName": "Aurora TestNet"
+  },
+  "1313161556": {
+    "chainSymbol": "aETH",
+    "chainName": "Aurora BetaNet"
+  },
+  "1666600000": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Mainnet Shard 0"
+  },
+  "1666600001": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Mainnet Shard 1"
+  },
+  "1666600002": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Mainnet Shard 2"
+  },
+  "1666600003": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Mainnet Shard 3"
+  },
+  "1666700000": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Testnet Shard 0"
+  },
+  "1666700001": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Testnet Shard 1"
+  },
+  "1666700002": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Testnet Shard 2"
+  },
+  "1666700003": {
+    "chainSymbol": "ONE",
+    "chainName": "Harmony Testnet Shard 3"
+  },
+  "3125659152": {
+    "chainSymbol": "PIRL",
+    "chainName": "Pirl"
+  },
+  "4216137055": {
+    "chainSymbol": "OLT",
+    "chainName": "OneLedger Testnet Frankenstein"
+  },
+  "11297108099": {
+    "chainSymbol": "PALM",
+    "chainName": "Palm Testnet"
+  },
+  "11297108109": {
+    "chainSymbol": "PALM",
+    "chainName": "Palm Mainnet"
+  }
+}
