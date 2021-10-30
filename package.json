@@ -11,9 +11,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.3",
     "node-sass": "^6.0.1",
-    "react": "^17.0.2",
     "react-bootstrap": "^2.0.0",
-    "react-dom": "^17.0.2",
     "react-modal": "^3.14.3",
     "react-scripts": "4.0.3",
     "redux": "^4.1.2",
@@ -27,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "pretty code": "prettier --write \"**/*.{js,jsx,json,css,scss,ts,tsx,md}\"",
-    "clean build & cache": "del-cli --force ./.cache && del-cli --force ./public"
+    "clean modules & build": "del-cli --force ./node_modules && del-cli --force ./build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +48,13 @@
   "devDependencies": {
     "del-cli": "4.0.1",
     "prettier": "2.4.1"
+  },
+  "engines": {
+    "npm": "7.5.4",
+    "node": "14.17.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
