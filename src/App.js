@@ -1,14 +1,15 @@
 import Web3 from "web3";
 import { useState } from "react";
-import Connected from "./Components/Connected";
-import NotConnected from "./Components/NotConnected";
-
-import ModalContent from "./Components/ModalContent";
+import Connected from "./components/Connected";
+import NotConnected from "./components/NotConnected";
+import ModalContent from "./components/ModalContent";
 import Modal from "react-modal";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [account, setAccount] = useState("no wallet connected");
+  const [chainID, setChainID] = useState();
+  const [networkID, setNetworkID] = useState();
 
   const setModalIsOpenToTrue = () => {
     setModalIsOpen(true);
@@ -51,6 +52,8 @@ function App() {
     const chainID = await web3.eth.getChainId();
     const networkID = await web3.eth.net.getId();
     setAccount(account);
+    setChainID(chainID);
+    setNetworkID(networkID);
     console.log("network ID: ", networkID);
     console.log("Chain ID: ", chainID);
   };
@@ -76,15 +79,18 @@ function App() {
     setAccount("none");
   });
 
-  // window.ethereum.on("chainChanged", (chainId) => {
-  //   // Handle the new chain.
-  //   // Correctly handling chain changes can be complicated.
-  //   // We recommend reloading the page unless you have good reason not to.
-  //   window.location.reload();
-  // });
+  window.ethereum.on("chainChanged", (chainId) => {
+    loadAccount();
+    // Handle the new chain.
+    // Correctly handling chain changes can be complicated.
+    // We recommend reloading the page unless you have good reason not to.
+    // window.location.reload();
+  });
 
   if (account > 0) {
-    return <Connected account={account} />;
+    return (
+      <Connected account={account} chainID={chainID} networkID={networkID} />
+    );
   }
   return (
     <div className="App">
@@ -93,7 +99,9 @@ function App() {
         <button onClick={connectWallet}>Connect Your Wallet</button>
       </header>
       <Modal isOpen={modalIsOpen}>
-        <button onClick={setModalIsOpenToFalse}>x</button>
+        <button class="btn btn-outline-dark" onClick={setModalIsOpenToFalse}>
+          x
+        </button>
         <ModalContent />
       </Modal>
     </div>
