@@ -4,7 +4,7 @@ export const lookup = (state = "", action) => {
   switch (action.type) {
     case SEARCH_CHANGED:
       return action.lookup;
-   
+
     default:
       return state;
   }
