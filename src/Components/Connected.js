@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.svg";
+import chains from "../data/chainsInfo.json";
 
 const Connected = (props) => {
   return (
@@ -10,6 +11,19 @@ const Connected = (props) => {
         <p>
           Wallet address: <code>{props.account}</code>
         </p>
+        <h1>
+          Netowk ID: <code>{props.networkID}</code>
+        </h1>
+        <h1>
+          Chain ID: <code>{props.chainID}</code>
+        </h1>
+        {/* <h1>
+          Chain Symbol: <code>{chains[props.networkID]["chainSymbol"]}</code>
+        </h1>
+        <h1>
+          Chain Name: <code>{chains[props.networkID]["chainName"]}</code>
+        </h1> */}
+
         <a
           className="App-link"
           href={"https://bscscan.com/address/" + props.account}
