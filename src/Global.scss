@@ -15,6 +15,15 @@
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
+
+:root {
+  --green-light: #16ffbd;
+  --green-mid: #12ca98;
+  --green-dark: #439f76;
+  --pink-light: #f070a1;
+  --pink-dark: #c44272;
+}
+
 .App {
   text-align: center;
 }
@@ -31,25 +40,74 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--green-light);
+  background-image: url("back.svg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(12px + 1vmin);
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--pink-light);
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Modal {
+  position: absolute;
+  // top: 10em;
+  // left: 10em;
+  right: 10em;
+  bottom: 10em;
+  background-color: var(--pink-light);
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 1em 1em 0rem var(--green-mid);
+  border: 0.2rem solid var(--green-light);
+
+  p {
+    color: var(--green-light);
+  }
+
+  h1 {
+    color: var(--green-light);
+    padding: 2rem 0rem;
+  }
+
+  a {
+    color: var(--pink-dark);
+    font-weight: bold;
+    text-shadow: 0rem 0rem 0.2rem var(--green-light);
+    &:hover {
+      color: var(--green-mid);
+      text-shadow: 0rem 0rem 0.2rem var(--pink-dark);
+    }
+  }
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  // background-color: var(--pink-dark);
 }

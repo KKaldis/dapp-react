@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ModalContent from "./ModalContent";
 import Modal from "react-modal";
-
 import { connectWallet } from "../scripts/web3Functions";
 
 const NotConnected = (props) => {
