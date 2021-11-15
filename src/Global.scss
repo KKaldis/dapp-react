@@ -15,6 +15,11 @@
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Comfortaa", cursive;
+}
 
 :root {
   --green-light: #16ffbd;
@@ -54,6 +59,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(12px + 1vmin);
+
+  h1 {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    // color: var(--green-light);
+    text-shadow: 0.2rem 0.2rem 0rem var(--pink-dark);
+    font-weight: bold;
+    color: white;
+  }
 }
 
 .App-link {
@@ -79,25 +94,29 @@
   background-color: var(--pink-light);
   padding: 2rem;
   border-radius: 2rem;
-  box-shadow: 1em 1em 0rem var(--green-mid);
+  box-shadow: 1em 1em 0rem var(--green-dark);
   border: 0.2rem solid var(--green-light);
 
   p {
-    color: var(--green-light);
+    // color: var(--green-light);
+    color: white;
   }
 
   h1 {
-    color: var(--green-light);
+    // color: var(--green-light);
+    color: white;
     padding: 2rem 0rem;
+    font-weight: 900;
   }
 
   a {
-    color: var(--pink-dark);
+    color: var(--green-mid);
+    text-shadow: 0rem 0rem 0.2rem var(--pink-dark);
     font-weight: bold;
-    text-shadow: 0rem 0rem 0.2rem var(--green-light);
+
     &:hover {
-      color: var(--green-mid);
-      text-shadow: 0rem 0rem 0.2rem var(--pink-dark);
+      color: var(--pink-dark);
+      text-shadow: 0rem 0rem 0.2rem var(--green-light);
     }
   }
 }
@@ -108,6 +127,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: transparent;
+  background-color: #439f767e;
   // background-color: var(--pink-dark);
 }

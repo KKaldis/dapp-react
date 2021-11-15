@@ -5,6 +5,8 @@ import NotConnected from "./components/NotConnected";
 import ModalContent from "./components/ModalContent";
 import Modal from "react-modal";
 import styled, { ThemeProvider } from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -81,27 +83,30 @@ function App() {
     return (
       <Connected account={account} chainID={chainID} networkID={networkID} />
     );
+  } else {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1> kalΔera.finance </h1>
+          {/* <NotConnected /> */}
+          <Button onClick={connectWallet}>Connect Your Wallet</Button>
+        </header>
+        <Modal
+          className="Modal"
+          overlayClassName="Overlay"
+          isOpen={modalIsOpen}
+          onRequestClose={() => setModalIsOpen(false)}
+        >
+          <ThemeProvider theme={theme}>
+            <Button onClick={() => setModalIsOpen(false)}>
+              <FontAwesomeIcon icon={faTimes} />
+            </Button>
+          </ThemeProvider>
+          <ModalContent />
+        </Modal>
+      </div>
+    );
   }
-  return (
-    <div className="App">
-      <header className="App-header">
-        {/* <NotConnected /> */}
-        <Button onClick={connectWallet}>Connect Your Wallet</Button>
-      </header>
-      <Modal
-        className="Modal"
-        overlayClassName="Overlay"
-        isOpen={modalIsOpen}
-        onRequestClose={() => setModalIsOpen(false)}
-      >
-        <ThemeProvider theme={theme}>
-          {" "}
-          <Button onClick={() => setModalIsOpen(false)}>X</Button>
-        </ThemeProvider>
-        <ModalContent />
-      </Modal>
-    </div>
-  );
 }
 
 const Button = styled.button`
