@@ -1,22 +1,23 @@
 import React from "react";
-import logo from "../logo.svg";
+// import logo from "../logo.svg";
+import logo from "../unnamed.jpg";
 import chains from "../data/chainsInfo.json";
 
 const Connected = (props) => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo m-5" alt="logo" />
 
         <p>
           Wallet address: <code>{props.account}</code>
         </p>
-        <h1>
+        <h2>
           Netowk ID: <code>{props.networkID}</code>
-        </h1>
-        <h1>
+        </h2>
+        <h2>
           Chain ID: <code>{props.chainID}</code>
-        </h1>
+        </h2>
         {/* <h1>
           Chain Symbol: <code>{chains[props.networkID]["chainSymbol"]}</code>
         </h1>

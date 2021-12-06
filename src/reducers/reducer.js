@@ -1,10 +1,22 @@
 import { SEARCH_CHANGED } from "../actions/actions";
 
 // ? Redux & Redux thunk async
-export const lookup = (state = "", action) => {
+export const lookup = (
+  state = [
+    {
+      type: "boolean",
+      name: "bool",
+      title: "Please answer the question",
+      label: "Are you 21 or older?",
+      isRequired: true,
+    },
+  ],
+
+  action
+) => {
   switch (action.type) {
     case SEARCH_CHANGED:
-      return action.lookup;
+      return { ...state, [action.input]: action.value };
 
     default:
       return state;

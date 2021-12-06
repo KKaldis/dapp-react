@@ -1,10 +1,11 @@
 const ModalContent = () => {
   return (
     <div>
-      <h1 className="text-center">No Web 3.0 Wallet Found</h1>
+      <h1 className="text-center">ΔΥΣΤΥΧΩΣ ΧΑΣΤΗ ΜΟΥ!</h1>
+      <h2 className="text-center">Δεν βρέθηκε Web 3.0 πορτοφόλι</h2>
       <p>
-        Please install <a href="https://metamask.io/">metamask </a> or another
-        web3 wallet provider
+        Εγγαταστείστε την επέκταση <a href="https://metamask.io/">metamask </a> ή κάποιο άλλο
+        web3 πορτοφόλι.
       </p>
     </div>
   );

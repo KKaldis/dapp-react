@@ -34,6 +34,7 @@
 }
 
 .App-logo {
+  border-radius: 25rem;
   height: 40vmin;
   pointer-events: none;
 }
@@ -68,6 +69,11 @@
     text-shadow: 0.2rem 0.2rem 0rem var(--pink-dark);
     font-weight: bold;
     color: white;
+    @media screen and (max-width: 760px) {
+      top: 10rem;
+      left: auto;
+
+    }
   }
 }
 
@@ -96,6 +102,13 @@
   border-radius: 2rem;
   box-shadow: 1em 1em 0rem var(--green-dark);
   border: 0.2rem solid var(--green-light);
+  @media screen and (max-width: 760px) {
+    top: auto;
+    left: 2.5rem;
+    right: 2.5rem;
+    // bottom: 2.5rem;
+
+  }
 
   p {
     // color: var(--green-light);
@@ -105,7 +118,14 @@
   h1 {
     // color: var(--green-light);
     color: white;
-    padding: 2rem 0rem;
+    padding: 0rem 0rem;
+    font-weight: 900;
+  }
+
+  h2 {
+    // color: var(--green-light);
+    color: white;
+    padding: 1rem 0rem;
     font-weight: 900;
   }
 

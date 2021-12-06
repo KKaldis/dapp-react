@@ -87,9 +87,10 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1> kalΔera.finance </h1>
+          <h1> ΤΣΙΛΙ-ΔΕΞ.φάϊνανς </h1>
+          {/* <h1> kalΔera.finance </h1> */}
           {/* <NotConnected /> */}
-          <Button onClick={connectWallet}>Connect Your Wallet</Button>
+          <Button onClick={connectWallet}>Σύνδεσε το πορτοφόλι</Button>
         </header>
         <Modal
           className="Modal"
